@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://pastebin.com/raw/gtbKvnE1 ");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://kv.netsite.cc/tv.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
